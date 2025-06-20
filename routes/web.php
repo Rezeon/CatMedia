@@ -16,8 +16,8 @@ Route::get('/', function () {
         return redirect()->route('login');
     }
 
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+    return redirect((route("post.posts")));
+})->middleware(['auth', 'verified']);
 
 
 Route::prefix('post')->name('post.')->group(function () {
