@@ -90,13 +90,8 @@ CatMedia/
 
 -NPM
 
--MySQL / PostgreSQL
+-MySQL 
 
-
-
-📄 Lisensi
-
-Lisensi: MIT
 
 
 👤 Developer
